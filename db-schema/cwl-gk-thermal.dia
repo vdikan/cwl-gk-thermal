@@ -2,10 +2,10 @@
 <dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
   <dia:diagramdata>
     <dia:attribute name="background">
-      <dia:color val="#ffffffff"/>
+      <dia:color val="#ffffff"/>
     </dia:attribute>
     <dia:attribute name="pagebreak">
-      <dia:color val="#000099ff"/>
+      <dia:color val="#000099"/>
     </dia:attribute>
     <dia:attribute name="paper">
       <dia:composite type="paper">
@@ -37,9 +37,6 @@
     </dia:attribute>
     <dia:attribute name="grid">
       <dia:composite type="grid">
-        <dia:attribute name="dynamic">
-          <dia:boolean val="true"/>
-        </dia:attribute>
         <dia:attribute name="width_x">
           <dia:real val="1"/>
         </dia:attribute>
@@ -56,7 +53,7 @@
       </dia:composite>
     </dia:attribute>
     <dia:attribute name="color">
-      <dia:color val="#d8e5e5ff"/>
+      <dia:color val="#d8e5e5"/>
     </dia:attribute>
     <dia:attribute name="guides">
       <dia:composite type="guides">
@@ -64,57 +61,38 @@
         <dia:attribute name="vguides"/>
       </dia:composite>
     </dia:attribute>
-    <dia:attribute name="display">
-      <dia:composite type="display">
-        <dia:attribute name="antialiased">
-          <dia:boolean val="false"/>
-        </dia:attribute>
-        <dia:attribute name="snap-to-grid">
-          <dia:boolean val="true"/>
-        </dia:attribute>
-        <dia:attribute name="snap-to-object">
-          <dia:boolean val="true"/>
-        </dia:attribute>
-        <dia:attribute name="show-grid">
-          <dia:boolean val="true"/>
-        </dia:attribute>
-        <dia:attribute name="show-connection-points">
-          <dia:boolean val="true"/>
-        </dia:attribute>
-      </dia:composite>
-    </dia:attribute>
   </dia:diagramdata>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true"/>
-  <dia:layer name="Background" visible="true" connectable="true" active="true">
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true"/>
+  <dia:layer name="Background" visible="true" active="true">
     <dia:object type="UML - Component" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="-1,8"/>
+        <dia:point val="-3,8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-1.05,7.95;17.3225,12.35"/>
+        <dia:rectangle val="-3.05,7.95;17.975,12.35"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-1,8"/>
+        <dia:point val="-3,8"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="18.272500000000001"/>
+        <dia:real val="20.925000000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.2999999999999998"/>
       </dia:attribute>
       <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_colour">
-        <dia:color val="#003a2aff"/>
+        <dia:color val="#d4d4d4"/>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#code (title,version,command,pseudo_ext)#</dia:string>
@@ -122,8 +100,8 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#'siesta','develop','siesta','psml'
-'qeheat','develop','all_currents.x','upf'#</dia:string>
+            <dia:string>#'siesta','gk-thermal-transport','siesta','psml'
+'qeheat','rebased-edits #28dcbf0b9','all_currents.x','upf'#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -132,10 +110,10 @@
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="1.4,10.095"/>
+            <dia:point val="-0.6,10.0941"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#ffffffff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
@@ -148,7 +126,7 @@
         <dia:point val="48,4"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="47.975,3.075;55.94,7.025"/>
+        <dia:rectangle val="47.95,3.05;55.965,7.05"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -161,6 +139,15 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#000c39"/>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#sqlite3:typemap#</dia:string>
@@ -178,24 +165,15 @@ string: text;#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="48.3,5.695"/>
+            <dia:point val="48.3,5.69406"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#ffffffff"/>
+            <dia:color val="#ffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#000c39ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O2">
@@ -253,20 +231,17 @@ string: text;#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ecffff"/>
+        <dia:color val="#d8ecff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -436,20 +411,17 @@ string: text;#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ecffff"/>
+        <dia:color val="#d8ecff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -596,20 +568,17 @@ string: text;#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ffeaff"/>
+        <dia:color val="#d8ffea"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -802,20 +771,17 @@ string: text;#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ecffff"/>
+        <dia:color val="#d8ecff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -958,7 +924,7 @@ string: text;#</dia:string>
         <dia:point val="11,-6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="10.975,-6.025;15.005,-3.475"/>
+        <dia:rectangle val="10.95,-6.05;15.03,-3.45"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -971,6 +937,15 @@ string: text;#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.5"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -985,24 +960,15 @@ metadata#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="11.35,-4.755"/>
+            <dia:point val="11.35,-4.75594"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O7">
@@ -1010,7 +976,7 @@ metadata#</dia:string>
         <dia:point val="48,0"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="47.975,-0.025;53.93,2.525"/>
+        <dia:rectangle val="47.95,-0.05;53.955,2.55"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1023,6 +989,15 @@ metadata#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.5"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1037,24 +1012,15 @@ SQL db types:#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="48.35,1.245"/>
+            <dia:point val="48.35,1.24406"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O8">
@@ -1112,20 +1078,17 @@ SQL db types:#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ecffff"/>
+        <dia:color val="#d8ecff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -1222,7 +1185,7 @@ SQL db types:#</dia:string>
         <dia:point val="27,10.7"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.765,9.4844;28.9619,18.6"/>
+        <dia:rectangle val="22.765,9.48534;28.9619,18.6"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1240,6 +1203,9 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
@@ -1259,7 +1225,7 @@ SQL db types:#</dia:string>
             <dia:point val="28.9619,10.0794"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1268,12 +1234,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="28.9619,10.0794"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O2" connection="10"/>
@@ -1285,15 +1245,15 @@ SQL db types:#</dia:string>
         <dia:point val="14.74,3.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.84,2.35279;27.9,4.8"/>
+        <dia:rectangle val="13.84,2.35373;27.9,4.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="14.74,3.9"/>
-        <dia:point val="20.87,3.9"/>
-        <dia:point val="20.87,3.9"/>
+        <dia:point val="15.64,3.9"/>
+        <dia:point val="26.1,3.9"/>
         <dia:point val="27,3.9"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
@@ -1303,6 +1263,9 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
@@ -1322,7 +1285,7 @@ SQL db types:#</dia:string>
             <dia:point val="19.0125,2.94779"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1331,12 +1294,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="19.0125,2.94779"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O5" connection="9"/>
@@ -1348,7 +1305,7 @@ SQL db types:#</dia:string>
         <dia:point val="14.74,3.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.84,2.35279;27.9,10.8"/>
+        <dia:rectangle val="13.84,2.35373;27.9,10.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1366,6 +1323,9 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
@@ -1385,7 +1345,7 @@ SQL db types:#</dia:string>
             <dia:point val="19.1042,2.94779"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1394,12 +1354,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="19.1042,2.94779"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O5" connection="9"/>
@@ -1461,20 +1415,17 @@ SQL db types:#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d9d8ffff"/>
+        <dia:color val="#d9d8ff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -1728,6 +1679,9 @@ SQL db types:#</dia:string>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
       </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
       </dia:attribute>
@@ -1746,7 +1700,7 @@ SQL db types:#</dia:string>
             <dia:point val="7.95396,18.9201"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1755,12 +1709,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="7.95396,18.9201"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O8" connection="8"/>
@@ -1822,20 +1770,17 @@ SQL db types:#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#d8ecffff"/>
+        <dia:color val="#d8ecff"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -1974,6 +1919,9 @@ SQL db types:#</dia:string>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
       </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
       </dia:attribute>
@@ -1992,7 +1940,7 @@ SQL db types:#</dia:string>
             <dia:point val="-3,4"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -2001,12 +1949,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="-3,4"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O5" connection="8"/>
@@ -2068,20 +2010,17 @@ SQL db types:#</dia:string>
       <dia:attribute name="comment_tagging">
         <dia:boolean val="false"/>
       </dia:attribute>
-      <dia:attribute name="allow_resizing">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ffd8e5ff"/>
+        <dia:color val="#ffd8e5"/>
       </dia:attribute>
       <dia:attribute name="text_color">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="normal_font">
         <dia:font family="monospace" style="0" name="Courier"/>
@@ -2266,6 +2205,9 @@ SQL db types:#</dia:string>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
       </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
       </dia:attribute>
@@ -2284,7 +2226,7 @@ SQL db types:#</dia:string>
             <dia:point val="-0.159884,9.50507"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -2293,12 +2235,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="-0.159884,9.50507"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O14" connection="9"/>
@@ -2310,7 +2246,7 @@ SQL db types:#</dia:string>
         <dia:point val="-1,20.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-2.9,19.1556;10.795,36.6"/>
+        <dia:rectangle val="-2.9,19.1565;10.795,36.6"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2333,6 +2269,9 @@ SQL db types:#</dia:string>
       <dia:attribute name="orth_autoroute">
         <dia:boolean val="true"/>
       </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
       <dia:attribute name="role">
         <dia:enum val="2"/>
       </dia:attribute>
@@ -2351,7 +2290,7 @@ SQL db types:#</dia:string>
             <dia:point val="-1.09589,19.7506"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -2360,12 +2299,6 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="text_pos">
         <dia:point val="-1.09589,19.7506"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O12" connection="8"/>
@@ -2377,7 +2310,7 @@ SQL db types:#</dia:string>
         <dia:point val="-24,8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-24.05,7.95;-7.2725,33.7025"/>
+        <dia:rectangle val="-24.05,7.95;-7.27,36.1009"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2386,16 +2319,16 @@ SQL db types:#</dia:string>
         <dia:point val="-24,8"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="16.677500000000002"/>
+        <dia:real val="16.68"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="25.652500000000003"/>
+        <dia:real val="28.050937500000007"/>
       </dia:attribute>
       <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_colour">
-        <dia:color val="#003a2aff"/>
+        <dia:color val="#d4d4d4"/>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#current (title,code_title,parse_string)#</dia:string>
@@ -2432,7 +2365,10 @@ SQL db types:#</dia:string>
 'qion-d','qeheat','ionic_d:'
 'qion-e','qeheat','ionic_e:'
 'qzero','qeheat','zero:'
-'qtotal','qeheat','total:'#</dia:string>
+'qzloc','qeheat','zloc:'
+'qznl','qeheat,'znl:'
+'qtotal','qeheat','total:'
+'jcm1','siesta','gk:\.Jcm001'#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -2441,10 +2377,10 @@ SQL db types:#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-21.6,10.095"/>
+            <dia:point val="-21.6,10.0941"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#ffffffff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
@@ -2457,7 +2393,7 @@ SQL db types:#</dia:string>
         <dia:point val="17,1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.975,0.975;23.315,3.525"/>
+        <dia:rectangle val="16.95,0.95;23.34,3.55"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2470,6 +2406,15 @@ SQL db types:#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.5"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2484,24 +2429,15 @@ specifications#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="17.35,2.245"/>
+            <dia:point val="17.35,2.24406"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O21">
@@ -2509,7 +2445,7 @@ specifications#</dia:string>
         <dia:point val="10,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="9.975,22.975;18.625,27.125"/>
+        <dia:rectangle val="9.95,22.95;18.65,27.15"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2522,6 +2458,15 @@ specifications#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.0999999999999996"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2538,24 +2483,15 @@ table (trajectories)#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="10.35,24.245"/>
+            <dia:point val="10.35,24.2441"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O22">
@@ -2563,7 +2499,7 @@ table (trajectories)#</dia:string>
         <dia:point val="-14,0"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-14.025,-0.025;-7.3,2.525"/>
+        <dia:rectangle val="-14.05,-0.05;-7.275,2.55"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2576,6 +2512,15 @@ table (trajectories)#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.5"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2590,24 +2535,15 @@ parsing options#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-13.65,1.245"/>
+            <dia:point val="-13.65,1.24406"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O23">
@@ -2615,7 +2551,7 @@ parsing options#</dia:string>
         <dia:point val="12,34"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.975,33.975;21.01,37.325"/>
+        <dia:rectangle val="11.95,33.95;21.035,37.35"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2628,6 +2564,15 @@ parsing options#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3.3000000000000003"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffb4"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2643,24 +2588,15 @@ of the heat currents#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="12.35,35.245"/>
+            <dia:point val="12.35,35.2441"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffb4ff"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Component" version="0" id="O24">
@@ -2668,7 +2604,7 @@ of the heat currents#</dia:string>
         <dia:point val="16,-6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="15.95,-6.05;47.455,-1.65"/>
+        <dia:rectangle val="15.95,-6.05;47.46,-1.65"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2677,16 +2613,16 @@ of the heat currents#</dia:string>
         <dia:point val="16,-6"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="31.405000000000001"/>
+        <dia:real val="31.410000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.2999999999999998"/>
       </dia:attribute>
       <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_colour">
-        <dia:color val="#003a2aff"/>
+        <dia:color val="#d4d4d4"/>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#project (name,description,input_units,result_units)#</dia:string>
@@ -2703,10 +2639,10 @@ of the heat currents#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="18.4,-3.905"/>
+            <dia:point val="18.4,-3.90594"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#ffffffff"/>
+            <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="0"/>
