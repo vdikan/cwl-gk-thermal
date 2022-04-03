@@ -4,7 +4,7 @@
 -- Architecture        x86_64-linux-gnu-thread-multi             
 -- Target Database     sqlite3                                   
 -- Input file          cwl-gk-thermal.dia                        
--- Generated at        Fri Mar 25 02:30:06 2022                  
+-- Generated at        Sun Apr  3 14:53:50 2022                  
 -- Typemap for sqlite3 found in input file                       
 
 -- get_constraints_drop 
@@ -90,8 +90,8 @@ create table result (
 -- get_permissions_create
 
 -- get_inserts
-insert into code (title,version,command,pseudo_ext) values('siesta','develop','siesta','psml') ;
-insert into code (title,version,command,pseudo_ext) values('qeheat','develop','all_currents.x','upf') ;
+insert into code (title,version,command,pseudo_ext) values('siesta','gk-thermal-transport','siesta','psml') ;
+insert into code (title,version,command,pseudo_ext) values('qeheat','rebased-edits #28dcbf0b9','all_currents.x','upf') ;
 insert into current (title,code_title,parse_string) values('jks','siesta','gk:\.Jks\.') ;
 insert into current (title,code_title,parse_string) values('jks-a','siesta','gk:\.Jks-A') ;
 insert into current (title,code_title,parse_string) values('jks-b','siesta','gk:\.Jks-B') ;
@@ -121,7 +121,10 @@ insert into current (title,code_title,parse_string) values('qion-c','qeheat','io
 insert into current (title,code_title,parse_string) values('qion-d','qeheat','ionic_d:') ;
 insert into current (title,code_title,parse_string) values('qion-e','qeheat','ionic_e:') ;
 insert into current (title,code_title,parse_string) values('qzero','qeheat','zero:') ;
+insert into current (title,code_title,parse_string) values('qzloc','qeheat','zloc:') ;
+insert into current (title,code_title,parse_string) values('qznl','qeheat,'znl:') ;
 insert into current (title,code_title,parse_string) values('qtotal','qeheat','total:') ;
+insert into current (title,code_title,parse_string) values('jcm1','siesta','gk:\.Jcm001') ;
 insert into project (name,description,input_units,result_units) values('gk_thermal', 'Green-Kubo Thermal Transport DFT Calculation Database', 'siesta', 'qeheat') ;
 
 -- get_smallpackage_post_sql
